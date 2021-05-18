@@ -1,0 +1,26 @@
+{
+  "name": "restful-api",
+  "version": "0.0.1",
+  "description": "APIRestful sample for study.",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuliofergulha/restful-api.git"
+  },
+  "keywords": [
+    "Tulio",
+    "Fergulha"
+  ],
+  "author": "Tulio Fergulha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuliofergulha/restful-api/issues"
+  },
+  "homepage": "https://github.com/tuliofergulha/restful-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3"
+  }
+}
