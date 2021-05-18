@@ -4,7 +4,8 @@
   "description": "APIRestful sample for study.",
   "main": "src/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/tuliofergulha/restful-api#readme",
   "dependencies": {
     "@hapi/hapi": "^20.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
