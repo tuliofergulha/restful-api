@@ -1,16 +1,31 @@
 'use restrict'
 
-const productsHandler = require('./handlers/products');
+const productHandler = require('./handlers/product');
 
 module.exports = [
     {
         method: 'GET',
+        path: '/api/v1/products/{id}',
+        handler: productHandler.getById
+    },
+    {
+        method: 'GET',
         path: '/api/v1/products',
-        handler: productsHandler.get
+        handler: productHandler.get
     },
     {
         method: 'POST',
         path: '/api/v1/products',
-        handler: productsHandler.save
+        handler: productHandler.save
+    },
+    {
+        method: 'PUT',
+        path: '/api/v1/products/{id}',
+        handler: productHandler.update
+    },
+    {
+        method: 'DELETE',
+        path: '/api/v1/products/{id}',
+        handler: productHandler.remove
     },
 ]

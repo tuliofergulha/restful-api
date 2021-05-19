@@ -1,5 +1,7 @@
 'use strict';
 
+require('./services/mongo');
+
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes.js');
 
