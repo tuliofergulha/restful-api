@@ -2,6 +2,6 @@
 APIRestful sample for study.
 
 # Technologies
-  • HapiJS;
-  • Docker;
-  • MongoDB;
+  • HapiJS
+  • Docker
+  • MongoDB
